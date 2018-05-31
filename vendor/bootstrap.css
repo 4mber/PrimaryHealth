@@ -59,7 +59,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 footer {
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
 body {
@@ -165,15 +165,14 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: rgba(0, 0, 0, 0.5);
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #0056b3;
-  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 a:not([href]):not([tabindex]) {
@@ -552,33 +551,33 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 50px;
+  padding-left: 25px;
   margin-right: auto;
   margin-left: auto;
 }
 
 @media (min-width: 576px) {
   .container {
-    max-width: 540px;
+    max-width: 100%;
   }
 }
 
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: 100%;
   }
 }
 
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 100%;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 100%;
   }
 }
 
@@ -3846,6 +3845,10 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+}
+
+.nav-link-footer {
+  padding: 0;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -7278,7 +7281,7 @@ button.bg-dark:focus {
 }
 
 .fixed-top {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   left: 0;

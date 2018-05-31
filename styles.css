@@ -8,6 +8,21 @@ body {
   color: #5a5a5a;
 }
 
+ul {
+  list-style-type: none;
+  -webkit-padding-start: 0;
+}
+
+.copy {
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.backup {
+  margin-top: 2rem;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
