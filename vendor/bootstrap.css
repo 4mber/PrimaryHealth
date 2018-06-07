@@ -2400,7 +2400,7 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #6c757d;
+  background-color: #486585;
   border-color: #6c757d;
 }
 
@@ -4855,7 +4855,7 @@ input[type="button"].btn-block {
 
 @media (min-width: 576px) {
   .jumbotron {
-    padding: 4rem 2rem;
+    padding: 8rem 2rem;
   }
 }
 

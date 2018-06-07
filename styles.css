@@ -13,6 +13,27 @@ ul {
   -webkit-padding-start: 0;
 }
 
+input, textarea {
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  display: block;
+  margin-bottom: 23px;
+  width: 80%;
+  padding: 5px 10px;
+}
+
+input[type=submit] {
+  width: 90px;
+  background-color: #486585;
+  color: #FFFFFF;
+}
+
+form {
+  margin-top: 80px;
+  margin-bottom: 90px;
+  margin-left: 30px;
+}
+
 .copy {
   margin-left: 1.5rem;
   margin-top: 2rem;
@@ -21,6 +42,40 @@ ul {
 
 .backup {
   margin-top: 2rem;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.column-pad {
+  padding: 70px 50px;
+}
+
+.header {
+  margin-bottom: 65px;
+  margin-top: 45px;
+}
+
+.contact-jumbotron, .commitment-jumbotron, .employment-jumbotron, .resources-jumbotron {
+  background-size: cover;
+  background-position: center;  
+}
+
+.contact-jumbotron {
+  background-image: url("resources/contact.jpg");
+}
+
+.commitment-jumbotron {
+  background-image: url("resources/commitment.jpg");
+}
+
+.employment-jumbotron {
+  background-image: url("resources/employment.jpg");
+}
+
+.resources-jumbotron {
+  background-image: url("resources/resources.jpg");
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -118,5 +173,8 @@ ul {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+  input, textarea {
+    width: 45%;
   }
 }

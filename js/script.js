@@ -195,6 +195,7 @@ function init() {
 
         // Add in all of our locations...
         self.coordinates = [
+            new self.createLocation('Corporate Office', 34.8064457, -78.9756869, 'zacharys-pizza-restaurant-saint-pauls-2'),
             new self.createLocation('Clinton', 35.0046746, -78.3169622, 'alfredos-ristorante-italiano-clinton', '100 example lane, city, nc 12345'),
             new self.createLocation('Dunn', 35.3108479, -78.6177013, 'broad-st-deli-and-market-dunn'),
             new self.createLocation('Elizabethtown', 34.642956, -78.6438134, 'melvins-elizabethtown'),
@@ -202,13 +203,12 @@ function init() {
             new self.createLocation('Greensboro', 36.1054801, -79.8287552, 'hops-burger-bar-greensboro'),
             new self.createLocation('Goldsboro', 35.3830701, -77.9880316, 'thai-garden-goldsboro'),
             new self.createLocation('Kenansville', 34.9630782, -77.9628029, 'tokyo-sunrise-kenansville'),
-            new self.createLocation('Lumbertown Counseling Center', 34.658596, -79.0016207, 'thai-chili-lumberton-4'),
-            new self.createLocation('Lumbertown Home Care', 34.658596, -79.0016207, 'taqueria-los-molcajetes-lumberton'),
-            new self.createLocation('Lumbertown Day Supports', 34.6959457, -79.0135523, 'adelios-restaurant-lumberton'),
+            new self.createLocation('Lumberton Counseling Center', 34.658596, -79.0016207, 'thai-chili-lumberton-4'),
+            new self.createLocation('Lumberton Home Care', 34.658596, -79.0016207, 'taqueria-los-molcajetes-lumberton'),
+            new self.createLocation('Lumberton Day Supports', 34.6959457, -79.0135523, 'adelios-restaurant-lumberton'),
             new self.createLocation('Pembroke', 34.6822376, -79.1923251, 'san-jose-mexican-restaurant-pembroke'),
             new self.createLocation('Raeford', 34.965679, -79.2246487, 'las-palmas-mexican-grill-raeford'),
             new self.createLocation('Rockingham', 34.930962, -79.7652326, 'pattans-downtown-grille-rockingham'),
-            new self.createLocation('St. Pauls Corporate Office', 34.8064457, -78.9756869, 'zacharys-pizza-restaurant-saint-pauls-2'),
             new self.createLocation('Laurinburg', 34.752784, -79.4822187, '215-on-main-laurinburg'),
             new self.createLocation('Red Springs', 34.8137862, -79.1815505, 'taqueria-el-leon-red-springs'),
             new self.createLocation('Rocky Mount', 35.9635897, -77.8558228, 'the-prime-smokehouse-rocky-mount'),
