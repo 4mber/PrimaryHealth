@@ -483,6 +483,7 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  margin-top: 120px;
 }
 
 .img-thumbnail {
@@ -5454,7 +5455,7 @@ button.close {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 800px;
     margin: 1.75rem auto;
   }
   .modal-dialog-centered {
