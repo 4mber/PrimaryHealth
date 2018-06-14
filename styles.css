@@ -169,6 +169,10 @@ form {
   margin-bottom: 120px;
 }
 
+.featurette-image {
+  min-width: 400px;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -182,7 +186,7 @@ form {
   }
 
   .featurette-heading {
-    font-size: 50px;
+    font-size: 35px;
   }
 }
 
