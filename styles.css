@@ -62,7 +62,7 @@ form {
   text-align: center;
 }
 
-.contact-jumbotron, .commitment-jumbotron, .employment-jumbotron, .resources-jumbotron, .services-jumbotron {
+.contact-jumbotron, .commitment-jumbotron, .employment-jumbotron, .resources-jumbotron, .services-jumbotron, .apc-services-jumbotron {
   background-size: cover;
   background-position: center;  
 }
@@ -89,6 +89,10 @@ form {
 
 .services-jumbotron {
   background-image: url("resources/services.jpg");
+}
+
+.apc-services-jumbotron {
+  background-image: url("resources/apc-services.jpg");
 }
 
 /* CUSTOMIZE THE CAROUSEL
