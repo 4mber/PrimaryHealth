@@ -3921,6 +3921,14 @@ input[type="button"].btn-block {
   text-align: center;
 }
 
+.nav-item {
+  padding-left: 15px;
+}
+
+.nav-item-bottom {
+  padding-left: 0;
+}
+
 .tab-content > .tab-pane {
   display: none;
 }
@@ -3939,7 +3947,7 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 3rem 3rem;
+  padding: 2rem 2rem;
 }
 
 .navbar > .container,
@@ -6092,7 +6100,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #ffffff !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,

@@ -3,7 +3,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 8.5rem;
+  padding-top: 11.5rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
 }
@@ -34,6 +34,15 @@ form {
   margin-left: 30px;
 }
 
+#main-logo {
+  max-width: 220px;
+}
+
+#nc {
+  max-width: 850px;
+  margin: auto;
+}
+
 .copy {
   margin-left: 1.5rem;
   margin-top: 2rem;
@@ -62,7 +71,13 @@ form {
   text-align: center;
 }
 
-.contact-jumbotron, .commitment-jumbotron, .employment-jumbotron, .resources-jumbotron, .services-jumbotron, .apc-services-jumbotron {
+.newsletter-img{
+  max-width: 30%;
+  margin-top: 50px;
+
+}
+
+.contact-jumbotron, .commitment-jumbotron, .employment-jumbotron, .resources-jumbotron, .services-jumbotron, .apc-services-jumbotron, .newsletter-jumbotron {
   background-size: cover;
   background-position: center;  
 }
@@ -93,6 +108,19 @@ form {
 
 .apc-services-jumbotron {
   background-image: url("resources/apc-services.jpg");
+}
+
+.newsletter-jumbotron {
+  background-image: url("resources/newsletter.jpg");
+}
+
+#locations-list {
+  margin: auto;
+  max-width: 55%;
+}
+
+.container-nopad {
+  padding: 0;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -177,6 +205,9 @@ form {
   min-width: 400px;
 }
 
+.locations-feature {
+  margin-bottom: 20px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
