@@ -24,8 +24,15 @@ input, textarea {
 
 input[type=submit] {
   width: 90px;
-  background-color: #486585;
+  background-color: #651916;
   color: #FFFFFF;
+  transition: 0.3s;
+  padding: 0.5rem 1rem;
+}
+
+input[type=submit]:hover {
+  background-color: #a16e65;
+  cursor: pointer;
 }
 
 form {
