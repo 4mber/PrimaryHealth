@@ -68,6 +68,16 @@ form {
   padding: 70px 50px;
 }
 
+.apc-services-pad {
+  padding: 100px 50px;
+  padding-bottom: 0;
+}
+
+
+#more-resources {
+  padding-top: 0;
+}
+
 .header {
   margin-bottom: 65px;
   margin-top: 45px;
@@ -95,6 +105,7 @@ form {
 
 .contact-jumbotron {
   background-image: url("resources/contact.jpg");
+  background-position: 0 -50px;
 }
 
 .commitment-jumbotron {
@@ -115,6 +126,7 @@ form {
 
 .apc-services-jumbotron {
   background-image: url("resources/apc-services.jpg");
+  background-position: 0 -190px;
 }
 
 .newsletter-jumbotron {
@@ -139,7 +151,7 @@ form {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 9rem;
+  bottom: 11rem;
   z-index: 10;
 }
 
@@ -153,6 +165,8 @@ form {
   top: 0;
   left: 0;
   min-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
   height: 950px;
 }
 
