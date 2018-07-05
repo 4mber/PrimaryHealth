@@ -94,6 +94,11 @@ form {
 
 }
 
+.employment-jumbotron {
+  background: /*linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),*/ url("resources/employment.jpg");
+}
+
+
 .contact-jumbotron, .commitment-jumbotron, .employment-jumbotron, .resources-jumbotron, .services-jumbotron, .apc-services-jumbotron, .newsletter-jumbotron {
   background-size: cover;
   background-position: center;  
@@ -105,15 +110,10 @@ form {
 
 .contact-jumbotron {
   background-image: url("resources/contact.jpg");
-  background-position: 0 -50px;
 }
 
 .commitment-jumbotron {
   background-image: url("resources/commitment.jpg");
-}
-
-.employment-jumbotron {
-  background-image: url("resources/employment.jpg");
 }
 
 .resources-jumbotron {
@@ -126,7 +126,7 @@ form {
 
 .apc-services-jumbotron {
   background-image: url("resources/apc-services.jpg");
-  background-position: 0 -190px;
+  background-position: 0 -120px;
 }
 
 .newsletter-jumbotron {
@@ -140,6 +140,11 @@ form {
 
 .container-nopad {
   padding: 0;
+}
+
+#carf {
+  max-width: 120px;
+  padding-top: 50px;
 }
 
 /* CUSTOMIZE THE CAROUSEL
