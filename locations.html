@@ -75,23 +75,14 @@
         </header>
 
         <main role="main">
-<!--             <div class="map" id="map"></div>
-            <div class="container" id="container">
-                <div class="location-list" id="location-list">
-                    <ul data-bind="foreach: markers">
-                        <a data-bind="click: function(data, event) { $parent.updateList(yelp_id, data, event) }, attr: {href: yelp_id }">
-                            <li data-bind="text: title, visible:getVisible()"></li>
-                        </a> -->
-                       <!--  <p data-bind="text: title"></p> -->
-<!--                     </ul>
-                </div>
-            </div> -->
             
-            <div class="container container-nopad">
-
+            
+            <div id="map-contain" class="container container-nopad">
+                <div class="map" id="map"></div>
+            </div>
             <div class="row featurette locations-feature">
               <div class="col-md-12 full-center">
-                <img src="resources/nc.png" id="nc">
+<!--                 <img src="resources/nc.png" id="nc"> -->
                 <h1 class="featurette-heading">Office Locations</h1>
                 <h6>Primary Health Choice, Inc<br>
                 A Primary Choice, Inc</h6>
@@ -136,7 +127,7 @@
                     2509 Battleground Avenue Ste. C<br>
                     Greensboro, NC 27408-1929<br>
                     <strong>(Phone)</strong> 336-285-7715<br>
-                    <strong>(Fax)</strong> 336-291-9244<br>
+                    <strong>(Fax)</strong> 336-291-8244<br>
                     </li><br><br>
 
                     <li><h4>Goldsboro Office</h4>
@@ -171,7 +162,7 @@
                     <li><h4>Lumberton Counseling Center</h4>
                     4721 Fayetteville Road, Suite B<br>
                     <!-- 4822 Fayetteville Road<br> -->
-                    Lumberton, NC 28358-2112 <!-- (( ??  or 2113)) --><br>
+                    Lumberton, NC 28358-2113<br>
                     <strong>(Phone)</strong> 910-738-3939<br>
                     <strong>(Phone)</strong> 910-738-3926<br>
                     <strong>(Fax)</strong> 910-738-3938</li><br><br>
@@ -179,7 +170,7 @@
                     <li><h4>Lumberton Home Care</h4>
                     4721 Fayetteville Road, Suite A<br>
                     <!-- 4826 Fayetteville Road<br> -->
-                    Lumberton, NC 28358-2112 <!-- (( ?? or 2113)) --><br>
+                    Lumberton, NC 28358-2113<br>
                     <strong>(Phone)</strong> 910-738-7339<br>
                     <strong>(Phone)</strong> 910-738-9003<br>
                     <strong>(Fax)</strong> 910-738-9799</li></ul>
@@ -219,7 +210,7 @@
 
                     <li><h4>Red Springs Office</h4>
                     227 East 4th Avenue<br>
-                    Red Springs, NC 28377-1603 <!-- (( ?? or 1327 )) --><br>
+                    Red Springs, NC 28377-1327<br>
                     <strong>(Phone)</strong> 910-359-0021<br>
                     910-359-0022 / 910-359-0023<br>
                     <strong>(Fax)</strong> 910-359-0024</li><br><br>
@@ -234,7 +225,7 @@
                     
                     <li><h4>Sanford Office</h4>
                     1514 South Horner Blvd.<br>
-                    Sanford, NC 27331-5632 <!-- (( ?? or 27330-5632 )) --><br>
+                    Sanford, NC 27331-5632<br>
                     <strong>(Phone)</strong> 919-774-7044<br>
                     <strong>(Phone)</strong> 919-774-7046<br>
                     <strong>(Fax)</strong> 919-774-7047</li><br><br>
@@ -313,10 +304,10 @@
         <script src="vendor/popper.min.js"></script>
         <script src="vendor/bootstrap.min.js"></script>
         <link href="end-styles.css" rel="stylesheet">
-        <script src="js/oauth.min.js"></script>
         <script src="js/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript" src="js/knockout-3.4.2.js"></script>
         <script src="js/script.js"></script>
-        <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-0FYApirit2uJYZksh3hmmKv5PKLJScY&callback=init" onerror="errorHandler()"></script>
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxFkF7gLaVi09xEq6vDYkjlQKZ2mwzvLs&libraries=places&v=3&callback=initMap">
+        </script>
     </body>
 </html>
