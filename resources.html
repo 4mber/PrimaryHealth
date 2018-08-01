@@ -18,6 +18,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <img src="/resources/PHClogo-banner.png" id="BG-logo">
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
@@ -26,7 +27,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">About Us</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown05">
-                            <a class="dropdown-item" href="commitment.html">Our Commitment</a>
+                            <a class="dropdown-item" href="commitment.html">About Us</a>
                             <a class="dropdown-item" href="resources/PHC Privacy Act.pdf" target="_blank">Privacy Policy</a>
                             <a class="dropdown-item" href="contact.html">Contact Us</a>
                         </div>
@@ -65,17 +66,45 @@
                         </div>
                     </li>
                 </ul>
+                <img id="carf" src="resources/carf.jpg" />
+                <div id="nav-right">
+                    <div class="font_resizer mt-2 mt-md-0">
+                        <label>Font Size:</label>
+                        <ul class="ct-font-resizer">
+                            <li class="fontResizer ct-font-resizer-element" style="text-align: center; font-weight: bold;">
+                                <a class="fontResizer_minus ct-font-resizer-minus" href="#" title="Decrease font size" style="font-size: 0.7em; cursor: pointer;">S</a>
+                                <a class="fontResizer_reset ct-font-resizer-reset" href="#" title="Reset font size" style="cursor: pointer;">M</a>
+                                <a class="fontResizer_add ct-font-resizer-plus" href="#" title="Increase font size" style="font-size: 1.2em; cursor: pointer;">L</a>
+                                <input type="hidden" id="fontResizer_value" value="body">
+                                <input type="hidden" id="fontResizer_ownid" value="">
+                                <input type="hidden" id="fontResizer_ownelement" value="">
+                                <input type="hidden" id="fontResizer_resizeSteps" value="1.6">
+                                <input type="hidden" id="fontResizer_cookieTime" value="31">
+                                <input type="hidden" id="fontResizer_maxFontsize" value="">
+                                <input type="hidden" id="fontResizer_minFontsize" value="">
+                            </li>
+                        </ul>
+                    </div>
 
-                <div id="google_translate_element" class="mt-2 mt-md-0"></div>
-                <script type="text/javascript">
-                    function googleTranslateElementInit() {
-                        new google.translate.TranslateElement({
-                            pageLanguage: 'en',
-                            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-                        }, 'google_translate_element');
-                    }
-                </script>
-                <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                    <div>
+                        <label>Translate:</label>
+                        <div id="google_translate_element" class="mt-2 mt-md-0"></div>
+                        <script type="text/javascript">
+                            function googleTranslateElementInit() {
+                                new google.translate.TranslateElement({
+                                    pageLanguage: 'en',
+                                    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                                }, 'google_translate_element');
+                            }
+                        </script>
+                        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                    </div>
+
+                    <!-- <form class="form-inline mt-2 mt-md-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form> -->
+                </div>
 
             </div>
         </nav>
@@ -131,7 +160,6 @@
                     <a href="http://www.ncdoj.gov./getdoc/2afb32e0-9831-41b7-8d53-99c9216c76a7/Reporting-Medicaid-and-and-Abuse.aspx"><h5>NC Department of Justice</h5></a>
 
                     <h5>CMHS Knowledge Exchange Network</h5>
-                    <h5>Behavior Online</h5>
                     <h5>National Institutes of Mental Health</h5>
                     <h5>Substance Abuse & Mental Health Services Administration</h5>
                     <h5>National Alliance for the Mentally Ill</h5>

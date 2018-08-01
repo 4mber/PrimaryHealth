@@ -140,8 +140,56 @@ form {
 
 #carf {
   max-width: 120px;
-  padding-top: 50px;
+  margin-right: 40px;
 }
+
+#BG-logo {
+  position: absolute;
+  width: 750px;
+  margin-left: 30%;
+  filter: opacity(3%);
+}
+
+#nav-right {
+  display: grid;
+}
+
+#google_translate_element {
+  display: inline-block;
+}
+
+.goog-te-gadget-simple {
+  border-radius: 7px;
+}
+
+.goog-te-gadget-icon {
+  display: none;
+}
+
+.carousel-button {
+  background-color: transparent;
+  border-color: transparent;
+  padding: 0;
+  color: #e9f1ff
+}
+
+.carousel-button:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+#footer-contact {
+  margin: 0;
+  margin-top: 45px;
+}
+
+.footer-input {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 1px;
+}
+
 /* CUSTOMIZE THE CAROUSEL -------------------------------------------------- */
 /* Carousel base class */
 .carousel {
@@ -175,6 +223,25 @@ form {
 #map {
   height: 100%;
 }
+
+/* FONT RESIZER ------------------------------------------------ */
+
+.font_resizer ul {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.fontResizer a {
+    border: thin solid #294171;
+    display: inline-block;
+    padding: 1px 5px;
+    color: #294171;
+    font-weight: normal;
+    font-size: 90%;
+}
+
+
+
+
 /* MARKETING CONTENT -------------------------------------------------- */
 /* Center align the text within the three columns below the carousel */
 /*.marketing .col-lg-4 {
