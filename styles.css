@@ -2,7 +2,6 @@
 /* Padding below the footer and lighter body text */
 body {
   padding-top: 11.5rem;
-  padding-bottom: 3rem;
   color: #5a5a5a;
 }
 
@@ -24,6 +23,7 @@ input, textarea {
 input[type=submit] {
   width: 90px;
   background-color: #651916;
+  border-color: transparent;
   color: #FFFFFF;
   transition: 0.3s;
   padding: 0.5rem 1rem;
@@ -52,6 +52,7 @@ form {
 .copy {
   margin-left: 1.5rem;
   margin-top: 2rem;
+  padding-bottom: 1rem;
   margin-bottom: 0;
 }
 
@@ -189,6 +190,24 @@ form {
   margin-bottom: 5px;
   padding: 1px;
 }
+
+#action-calls {
+  margin: 65px;
+  text-align: center;
+}
+
+.action-button {
+  background-color: transparent;
+  border-color: transparent;
+  color: #752b28;
+}
+
+.action-button:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: #651916;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL -------------------------------------------------- */
 /* Carousel base class */

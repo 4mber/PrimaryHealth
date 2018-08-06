@@ -91,7 +91,6 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 1.2rem;
 }
 
 abbr[title],
@@ -237,6 +236,7 @@ th {
 label {
   display: inline-block;
   margin-bottom: 0.5rem;
+  color: #000000;
 }
 
 button {
@@ -1194,9 +1194,9 @@ pre code {
     max-width: 8.333333%;
   }
   .col-lg-2 {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
   }
   .col-lg-3 {
     -ms-flex: 0 0 25%;
@@ -3839,6 +3839,7 @@ input[type="button"].btn-block {
 
 .nav-link-footer {
   padding: 0;
+  color: #9c9a9a;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -6101,6 +6102,7 @@ button.bg-light:focus {
 
 .bg-dark {
   background-color: #343a40 !important;
+  color: #d0d0d0;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,

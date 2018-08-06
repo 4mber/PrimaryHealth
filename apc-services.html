@@ -116,23 +116,35 @@
         <div class="jumbotron apc-services-jumbotron">
             <div class="container white">
                 <h1>Home Care Services</h1>
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal4">Mission Statement & Philosophy  >></button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal4" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body" style="color: black;">
+                                    <h3>Mission Statement</h3>
+                                    <p>We are committed to providing all individuals with the best comprehensive services to enhance and maintain personal care needs that will enable individuals to be as independent as possible and remain in the comfort of their own residence.</p><br>
+
+                                    <h3>Our Philosophy</h3>
+                                    <p>A Primary Choice Inc. is a professional Home Care Agency that delivers loving and caring services to all individuals we serve. We promote dignity and respect with consideration for the individual. The concept that we believe in is that your health is very important. Don't let your Joy be dependent on your circumstances, God wants you to prosper in health and many other ways.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
             </div>
         </div>
 
-        <div class="container">
-
-            <div class="row featurette">
-                <div class="col-md-12 full-center apc-services-pad">
-                    <h3>Mission Statement</h3>
-                    <p>We are committed to providing all individuals with the best comprehensive services to enhance and maintain personal care needs that will enable individuals to be as independent as possible and remain in the comfort of their own residence.</p><br>
-
-                    <h3>Our Philosophy</h3>
-                    <p>A Primary Choice Inc. is a professional Home Care Agency that delivers loving and caring services to all individuals we serve. We promote dignity and respect with consideration for the individual. The concept that we believe in is that your health is very important. Don't let your Joy be dependent on your circumstances, God wants you to prosper in health and many other ways.</p>
-
-                </div>
-            </div>
-
-            <hr class="featurette-divider">
+        <div class="container column-pad">
 
             <div class="row featurette">
                 <div class="col-md-7">
@@ -203,13 +215,10 @@
                     <img class="featurette-image img-fluid mx-auto" src="resources/va-services.jpg" alt="developmental therapy image">
                 </div>
             </div>
-
-            <hr class="featurette-divider">
-
         </div>
 
         <!-- FOOTER -->
-        <footer class="container bg-light">
+        <footer class="container bg-dark">
 
             <div class="container">
                 <div class="row">
@@ -218,7 +227,11 @@
                         <ul>
                             <li class="nav-item nav-item-bottom"> <a href="commitment.html" class="nav-link nav-link-footer">Commitment</a> </li>
                             <li class="nav-item nav-item-bottom"> <a href="contact.html" class="nav-link nav-link-footer">Contact Us</a> </li>
-                        </ul>
+                        </ul><br>
+                        <h4>Corporate Office</h4>
+                        219 West Broad Street<br> St Pauls, NC 28384-1533<br>
+                        <strong>(Phone)</strong> 910-865-3500<br>
+                        <strong>(Fax)</strong> 910-865-4124</li><br><br>
                     </div>
                     <div class="col-lg-4">
                         <span class="navbar-brand">SERVICES & RESOURCES</span>
@@ -232,12 +245,20 @@
                         <ul>
                             <li class="nav-item nav-item-bottom"> <a href="resources.html" class="nav-link nav-link-footer">Resources</a> </li>
                         </ul>
+
+                        <form id="footer-contact" action="https://formspree.io/ahurt@primaryhealthchoice.org" method="POST">
+                            <h4>Contact Us</h4>
+                            <input class="footer-input" type="text" name="name" placeholder="Name">
+                            <input class="footer-input" type="email" name="_replyto" placeholder="Email">
+                            <textarea class="footer-input" type="message" name="message" placeholder="Message"></textarea><br>
+                            <input type="submit" value="Send">
+                        </form>
                     </div>
                 </div>
             </div>
 
-            <p class="float-right backup"><a href="#">Back to top</a></p>
-            <p class="copy">&copy; 2018 Primary Health Choice, Inc. & A Primary Choice, Inc. All Rights Reserved &middot; <a href="resources/PHC Privacy Act.pdf" target="_blank">Privacy</a></p>
+            <p class="float-right backup"><a class="nav-link-footer" href="#">Back to top</a></p>
+            <p class="copy">&copy; 2018 Primary Health Choice, Inc. & A Primary Choice, Inc. All Rights Reserved &middot; <a class="nav-link-footer" href="resources/PHC Privacy Act.pdf" target="_blank">Privacy</a></p>
         </footer>
     </main>
 
