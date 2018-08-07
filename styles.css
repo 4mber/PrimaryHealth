@@ -147,8 +147,9 @@ form {
 #BG-logo {
   position: absolute;
   width: 750px;
-  margin-left: 30%;
-  filter: opacity(3%);
+  margin-left: 25%;
+  z-index: -2000;
+  top: 0;
 }
 
 #nav-right {
