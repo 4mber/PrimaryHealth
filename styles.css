@@ -197,18 +197,21 @@ form {
   text-align: center;
 }
 
-.action-button {
-  background-color: transparent;
-  border-color: transparent;
-  color: #752b28;
+.action-icon {
+  width: 70px;
 }
 
-.action-button:hover {
-  background-color: transparent;
-  border-color: transparent;
+.action-head {
   color: #651916;
 }
 
+.action-box {
+  transition: 0.3s;
+}
+
+.action-box:hover {
+  filter: brightness(80%);
+}
 
 /* CUSTOMIZE THE CAROUSEL -------------------------------------------------- */
 /* Carousel base class */
