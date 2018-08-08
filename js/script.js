@@ -129,7 +129,7 @@ function initMap() {
                 lng: -78.641509
             },
             address: '2950 West Broad Street<br>Elizabethtown, NC 28337-7137',
-            phone: '<strong>(P)</strong> 910-862-3040<br><strong>(P)</strong> 910-862-3043<br><strong>(F)</strong> 910-862-3046'
+            phone: '<strong>(P)</strong> 910-862-3040<br><strong>(P)</strong> 910-862-3043<br><strong>(F)</strong> 910-862-3051'
         },
         {
             title: 'Fayetteville',
@@ -174,7 +174,16 @@ function initMap() {
                 lng: -79.48003
             },
             address: '1777-A South Main Street<br>Laurinburg, NC 28352-5407',
-            phone: '<strong>(P)</strong> 910-277-0001<br>910-277-0024 / 910-277-0086<br><strong>(F)</strong> 910-277-0002'
+            phone: '<strong>(P)</strong> 910-506-4299<br><strong>(F)</strong> 910-506-4299'
+        },
+        {
+            title: '*NEW* Laurinburg Office',
+            location: {
+                lat: 34.7729088,
+                lng: -79.4653127
+            },
+            address: '505 Atkinson Street<br>Laurinburg, NC 28352-3715',
+            phone: '<strong>(P)</strong> 910-277-0001<br><strong>(F)</strong> 910-277-0002'
         },
         {
             title: 'Lumberton Counseling Center',
@@ -251,10 +260,10 @@ function initMap() {
         {
             title: 'Sanford',
             location: {
-                lat: 35.4673615,
-                lng: -79.1613152
+                lat: 35.4670974,
+                lng: -79.161917
             },
-            address: '1514 South Horner Blvd.<br>Sanford, NC 27331-5632',
+            address: '1514 South Horner Blvd.<br>Sanford, NC 27330-5632',
             phone: '<strong>(P)</strong> 919-774-7044<br><strong>(P)</strong> 919-774-7046<br><strong>(F)</strong> 919-774-7047'
         },
         {
@@ -263,16 +272,16 @@ function initMap() {
                 lat: 35.499124,
                 lng: -78.351684
             },
-            address: '839 S Brightleaf Blvd<br>Smithfield, NC 27577-4386',
+            address: '839 S Brightleaf Blvd, Ste #1<br>Smithfield, NC 27577-4386',
             phone: '<strong>(P)</strong> 919-209-0597<br><strong>(F)</strong> 919-989-1168'
         },
         {
             title: 'Whiteville',
             location: {
-                lat: 34.3394905,
-                lng: -78.7076678
+                lat: 34.3287555,
+                lng: -78.7057896
             },
-            address: '18 Whiteville Mini Mall<br>Whiteville, NC 28472-9167',
+            address: '106 S Lee Street<br>Whiteville, NC 28472-4028',
             phone: '<strong>(P)</strong> 910-642-9900<br><strong>(P)</strong> 910-642-9902<br><strong>(F)</strong> 910-642-9905'
         },
         {

@@ -74,7 +74,7 @@ form {
 }
 
 #more-resources {
-  padding-top: 0;
+  text-align: center;
 }
 
 .header {
@@ -168,19 +168,6 @@ form {
   display: none;
 }
 
-.carousel-button {
-  background-color: transparent;
-  border-color: transparent;
-  padding: 0;
-  color: #e9f1ff
-}
-
-.carousel-button:hover {
-  background-color: transparent;
-  border-color: transparent;
-  color: #ffffff;
-}
-
 #footer-contact {
   margin: 0;
   margin-top: 45px;
@@ -211,6 +198,48 @@ form {
 
 .action-box:hover {
   filter: brightness(80%);
+}
+
+.testimonial {
+  background-color: #ececec;
+  padding: 30px;
+}
+
+#contact-details {
+  color: #bfbfbf;
+  letter-spacing: .5px;
+  font-size: 15px;
+}
+
+#payor-sources {
+  color: #b3b3b3;
+  letter-spacing: 0.5px;
+}
+
+.transparent-button {
+  background-color: transparent;
+  border-color: transparent;
+  color: #651916;
+}
+
+.transparent-button:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: #994e40;
+}
+
+#apc-crisis {
+  padding: 150px 0 100px 0;
+  margin: 0;
+}
+
+.modal-header-box {
+  padding: 11px;
+  background-color: #d8d8d8;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #000000;
+  text-align: center;
 }
 
 /* CUSTOMIZE THE CAROUSEL -------------------------------------------------- */
