@@ -102,10 +102,20 @@
                         <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
                     </div>
 
-                    <!-- <form class="form-inline mt-2 mt-md-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form> -->
+                    <div id="search-contain">
+                        <script>
+                          (function() {
+                            var cx = '009178337144587862407:qm-oo4x7jn8';
+                            var gcse = document.createElement('script');
+                            gcse.type = 'text/javascript';
+                            gcse.async = true;
+                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                            var s = document.getElementsByTagName('script')[0];
+                            s.parentNode.insertBefore(gcse, s);
+                          })();
+                        </script>
+                        <gcse:search></gcse:search>
+                    </div>
                 </div>
 
             </div>
