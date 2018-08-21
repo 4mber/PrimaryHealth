@@ -267,6 +267,7 @@ form {
   object-fit: cover;
   height: 950px;
 }
+
 /* MAP STYLES -------------------------------------------------- */
 #map-contain {
   height: 400px;
@@ -290,9 +291,6 @@ form {
     font-weight: normal;
     font-size: 90%;
 }
-
-
-
 
 /* MARKETING CONTENT -------------------------------------------------- */
 /* Center align the text within the three columns below the carousel */
