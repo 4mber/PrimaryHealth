@@ -3,3 +3,6 @@
 	font-size: inherit;
 	color: inherit;
 }
+.bg-light {
+  font-size: 0.95rem !important;
+}
