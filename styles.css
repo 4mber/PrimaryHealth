@@ -252,6 +252,15 @@ form {
   text-align: center;
 }
 
+#God-tag {
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  color: #8c3227;
+  position: absolute;
+  bottom: 15px;
+  left: 80px;
+}
+
 /* CUSTOMIZE THE CAROUSEL -------------------------------------------------- */
 /* Carousel base class */
 .carousel {
@@ -259,12 +268,12 @@ form {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 12.5rem;
+  bottom: 11rem;
   z-index: 10;
 }
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 38.5rem;
+  height: 35rem;
   background-color: #777;
 }
 
