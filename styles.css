@@ -107,7 +107,6 @@ form {
 }
 
 .services-jumbotron {
-  background-position: 0 -190px;
 }
 
 .contact-jumbotron {
@@ -128,7 +127,6 @@ form {
 
 .apc-services-jumbotron {
   background-image: url("resources/apc-services.jpg");
-  background-position: 0 -120px;
 }
 
 .newsletter-jumbotron {
@@ -218,7 +216,7 @@ form {
 #contact-details {
   color: #bfbfbf;
   letter-spacing: .5px;
-  font-size: 15px;
+  font-size: 0.95rem;
 }
 
 #payor-sources {
@@ -255,7 +253,7 @@ form {
 #God-tag {
   font-family: Georgia, serif;
   font-size: 1rem;
-  color: #8c3227;
+  color: #6f1c11;
   position: absolute;
   bottom: 15px;
   left: 80px;
@@ -354,7 +352,7 @@ form {
     /* Bump up size of carousel content */
   .carousel-caption p {
     margin-bottom: 1.25rem;
-    font-size: 1.25rem;
+    font-size: 0.98rem;
     line-height: 1.4;
   }
 
