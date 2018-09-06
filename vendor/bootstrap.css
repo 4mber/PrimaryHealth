@@ -4072,15 +4072,45 @@ input[type="button"].btn-block {
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 1414.98px) {
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
     padding-right: 0;
     padding-left: 0;
   }
+  #search-contain {
+    margin-bottom: 20px;
+  }
+  #BG-logo {
+    display: none;
+  }
+  #nav-right {
+    margin-top: 15px;
+  }
+  .nav-item {
+    padding-left: 0;
+  }
+  .row {
+    width: 100%;
+    margin: 0;
+  }
+  .featurette-heading {
+    margin-top: 50px;
+  }
+  .btn {
+    white-space: normal;
+    font-size: 0.84rem;
+  }
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .dropdown-item {
+    white-space: normal;
+  }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1415px) {
   .navbar-expand-md {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -4196,6 +4226,16 @@ input[type="button"].btn-block {
   .navbar-expand-xl .navbar-toggler {
     display: none;
   }
+}
+
+@media (max-width: 350px) {
+  h1, .h1 {
+    font-size: 2rem;
+  }
+  h2, .h2 {
+    font-size: 1.6rem;
+  }
+
 }
 
 .navbar-expand {

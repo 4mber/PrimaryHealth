@@ -355,18 +355,53 @@ form {
     font-size: 0.98rem;
     line-height: 1.4;
   }
-
   .featurette-heading {
     font-size: 35px;
   }
 }
-
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
   }
-
   input, textarea {
     width: 45%;
   }
+}
+@media (max-width: 1414.98px) {
+  #locations-list {
+    max-width: 100%;
+    text-align: center;
+  }
+  .locations-feature {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .column-pad {
+    padding: 0;
+  }
+  .featurette-image {
+    min-width: auto;
+    width: 100%;
+  }
+  #action-calls {
+    margin: 50px 0 50px 0;
+  }
+}
+@media (max-width: 350px) {
+  #main-logo {
+    max-width: 160px;
+  }
+  #God-tag {
+    bottom: 5px;
+    left: 50px;
+  }
+  #carf {
+    max-width: 80px;
+  }
+}
+@media (max-width: 770px) {
+  #nav-right {
+    width: 100%;
+  }
+
 }

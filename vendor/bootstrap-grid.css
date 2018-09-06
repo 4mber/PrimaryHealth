@@ -1354,6 +1354,12 @@ html {
   align-self: stretch !important;
 }
 
+@media (max-width: 1414.98px) {
+  .row {
+    margin: 0;
+  }
+}
+
 @media (min-width: 576px) {
   .flex-sm-row {
     -ms-flex-direction: row !important;
