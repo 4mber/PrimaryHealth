@@ -6133,7 +6133,7 @@ button.bg-danger:focus {
 
 .bg-light {
   background-color: #ffffff !important;
-  font-size: 0.95rem !important;
+  font-size: 0.95rem;
 }
 
 a.bg-light:hover, a.bg-light:focus,
