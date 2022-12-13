@@ -105,13 +105,31 @@ function initMap() {
             phone: '<strong>(P)</strong> 910-865-3500<br><strong>(F)</strong> 910-865-4124'
         },
         {
-            title: 'Albemarle Office',
+            title: 'Albemarle',
             location: {
                 lat: 35.33781,
                 lng: -80.21435
             },
             address: '407 Commerce Street Apt B<br>Albemarle, NC 28001-6489',
             phone: '<strong>(P)</strong> 980-581-8487<br><strong>(F)</strong> 980-581-8636'
+        },
+        {
+            title: 'Asheboro',
+            location: {
+                lat: 35.69698,
+                lng: -79.81483
+            },
+            address: '817 S. Fayetteville Street<br>Asheboro, NC 27203-6489',
+            phone: '<strong>(P)</strong> 336-628-4125<br><strong>(F)</strong> 336-628-4139'
+        },
+        {
+            title: 'Burlington',
+            location: {
+                lat: 36.08851,
+                lng: -79.44884
+            },
+            address: '1148 S. Church Street<br>Burlington, NC 27215-5066',
+            phone: '<strong>(P)</strong> 336-639-7947<br><strong>(F)</strong> 336-639-7948'
         },
         {
             title: 'Clinton',
