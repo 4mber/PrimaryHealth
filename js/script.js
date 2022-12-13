@@ -105,6 +105,15 @@ function initMap() {
             phone: '<strong>(P)</strong> 910-865-3500<br><strong>(F)</strong> 910-865-4124'
         },
         {
+            title: 'Albemarle Office',
+            location: {
+                lat: 35.33781,
+                lng: -80.21435
+            },
+            address: '407 Commerce Street Apt B<br>Albemarle, NC 28001-6489',
+            phone: '<strong>(P)</strong> 980-581-8487<br><strong>(F)</strong> 980-581-8636'
+        },
+        {
             title: 'Clinton',
             location: {
                 lat: 35.0045566,
