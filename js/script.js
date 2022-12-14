@@ -134,10 +134,10 @@ function initMap() {
         {
             title: 'Clinton',
             location: {
-                lat: 35.0045566,
-                lng: -78.3150126
+                lat: 34.99811,
+                lng: -78.30966
             },
-            address: '820 College Street<br>Clinton, NC 28328-3506',
+            address: '421 Warsaw Road<br>Clinton, NC 28328-3506',
             phone: '<strong>(P)</strong> 910-590-3177<br><strong>(F)</strong> 910-590-3180'
         },
         {
@@ -161,11 +161,29 @@ function initMap() {
         {
             title: 'Fayetteville',
             location: {
-                lat: 35.043645,
-                lng: -78.971485
+                lat: 35.04015,
+                lng: -78.93342
             },
-            address: '5412-A Raeford Road<br>Fayetteville, NC 28304-3155',
+            address: '3217 Friendly Road<br>Fayetteville, NC 28304-3155',
             phone: '<strong>(P)</strong> 910-339-0963<br><strong>(P)</strong> 910-339-0964<br><strong>(F)</strong> 910-339-0965'
+        },
+        {
+            title: 'Forest City',
+            location: {
+                lat: 35.31718,
+                lng: -81.85698
+            },
+            address: '727 South Broadway C<br>Forest City, NC 28043-4333',
+            phone: '<strong>(P)</strong> 828-305-7512<br><strong>(F)</strong> 828-305-7518'
+        },
+        {
+            title: 'Gastonia',
+            location: {
+                lat: 35.25267,
+                lng: -81.15669
+            },
+            address: '1595 East Garrison Bvd Ste. B <br>Gastonia, NC 28054',
+            phone: '<strong>(P)</strong> 704-691-7189<br><strong>(F)</strong> 704-691-7188'
         },
         {
             title: 'Greensboro',
@@ -177,6 +195,15 @@ function initMap() {
             phone: '<strong>(P)</strong> 336-285-7715<br><strong>(F)</strong> 336-291-8244'
         },
         {
+             title: 'Greenville',
+            location: {
+                lat: 35.58816,
+                lng: -77.37465
+            },
+            address: '214 East Arlington Blvd Ste B C<br>Greenville, NC 27858-5023',
+            phone: '<strong>(P)</strong> 252-565-8025<br><strong>(F)</strong> 252-565-8026'
+        },
+        {
             title: 'Goldsboro',
             location: {
                 lat: 35.3829748,
@@ -184,6 +211,15 @@ function initMap() {
             },
             address: '701 East Ash Street<br>Goldsboro, NC 27530-3801',
             phone: '<strong>(P)</strong> 919-705-5955<br><strong>(P)</strong> 919-705-5959<br><strong>(F)</strong> 919-705-5966'
+        },
+        {
+           title: 'Jacksonville',
+            location: {
+                lat: 34.76308,
+                lng: -77.41382
+            },
+            address: '102 Elizabeth Street Ste C <br>Jacksonville, NC 28540-5679',
+            phone: '<strong>(P)</strong> 910-939-2070<br><strong>(F)</strong> 910-939-2060'
         },
         {
             title: 'Kenansville',
@@ -195,22 +231,58 @@ function initMap() {
             phone: '<strong>(P)</strong> 910-296-1200<br><strong>(P)</strong> 910-275-0232<br><strong>(F)</strong> 910-296-1210'
         },
         {
+          title: 'Kinston',
+            location: {
+                lat: 35.28441,
+                lng: -77.58958
+            },
+            address: '2300 North Herritage Street<br>Kinston, NC 28501-1615',
+            phone: '<strong>(P)</strong> 252-643-2535<br><strong>(F)</strong> 252-643-2536'
+        },
+        {   
             title: 'Laurinburg',
             location: {
                 lat: 34.752784,
                 lng: -79.48003
             },
-            address: '1777-A South Main Street<br>Laurinburg, NC 28352-5407',
-            phone: '<strong>(P)</strong> 910-506-4299<br><strong>(F)</strong> 910-506-4299'
+            address: '801 South Main Street<br>Laurinburg, NC 28352-3715',
+            phone: '<strong>(P)</strong> 910-277-0001<br><strong>(F)</strong> 910-277-0002'
         },
         {
-            title: '*NEW* Laurinburg Office',
+            title: 'Laurinburg Day Supports',
             location: {
-                lat: 34.7729088,
-                lng: -79.4653127
+                lat: 34.77305,
+                lng: -79.46533
             },
             address: '505 Atkinson Street<br>Laurinburg, NC 28352-3715',
-            phone: '<strong>(P)</strong> 910-277-0001<br><strong>(F)</strong> 910-277-0002'
+            phone: '<strong>(P)</strong> 910-361-4936<br><strong>(F)</strong> 910-506-4542'
+        },
+        {
+            title: 'Lenoir',
+            location: {
+                lat: 35.91507,
+                lng: -81.53619
+            },
+            address: '565 Harper Ave SW Ste B <br>Lenoir, NC 28645-5076',
+            phone: '<strong>(P)</strong> 828-759-9444<br><strong>(F)</strong> 828-759-9445'
+        },
+        {
+             title: 'Lexington',
+            location: {
+                lat: 35.82115,
+                lng: -80.25819
+            },
+            address: '20 West 5th Avenue; Unit #4 <br>Lecington, NC 27292-3224',
+            phone: '<strong>(P)</strong> 336-300-7135<br><strong>(F)</strong> 336-300-7136'
+        },
+        {
+             title: 'Lincolnton',
+            location: {
+                lat: 35.49655,
+                lng: -81.24414
+            },
+            address: '110 Vandiver Drive <br>Lincolnton, NC 28092',
+            phone: '<strong>(P)</strong> 704-240-4455<br><strong>(F)</strong> 704-4453'
         },
         {
             title: 'Lumberton Counseling Center',
@@ -218,7 +290,7 @@ function initMap() {
                 lat: 34.658596,
                 lng: -78.999432
             },
-            address: '4721 Fayetteville Road, Suite B<br>Lumberton, NC 28358-2113',
+            address: '4701 Fayetteville Road <br>Lumberton, NC 28358-2113',
             phone: '<strong>(P)</strong> 910-738-3939<br><strong>(P)</strong> 910-738-3926<br><strong>(F)</strong> 910-738-3938},'
         },
         {
@@ -227,8 +299,17 @@ function initMap() {
                 lat: 34.658596,
                 lng: -78.999432
             },
-            address: '4721 Fayetteville Road, Suite A<br>Lumberton, NC 28358-2113',
+            address: '4701 Fayetteville Road <br>Lumberton, NC 28358-2113',
             phone: '<strong>(P)</strong> 910-738-7339<br><strong>(P)</strong> 910-738-9003<br><strong>(F)</strong> 910-738-9799'
+        },
+        {
+            title: 'Lumberton Enhanced Services Office',
+            location: {
+                lat: 34.65883,
+                lng: -78.99958
+            },
+            address: '4721 Fayetteville Road Ste A <br> Lumberton, NC 28358-2113',
+            phone: '<strong>(P)</strong> 910-536-1103<br><strong>(F)</strong> 910-536-1207'
         },
         {
             title: 'Lumberton Day Supports',
@@ -238,6 +319,15 @@ function initMap() {
             },
             address: '107-A Mt. Moriah Church Road<br>Lumberton, NC 28360-8446',
             phone: '<strong>(P)</strong> 910-739-7000<br><strong>(F)</strong> 910-739-7995'
+        },
+        {
+            title: 'Monroe',
+            location: {
+                lat: 34.99796,
+                lng: -80.54750
+            },
+            address: '1617 W Roosevelt Blvd Ste. M <br> Monroe, NC 28110',
+            phone: '<strong>(P)</strong> 980-210-3725<br><strong>(F)</strong> 980-210-3782'
         },
         {
             title: 'Pembroke',
@@ -290,25 +380,61 @@ function initMap() {
                 lat: 35.4670974,
                 lng: -79.161917
             },
-            address: '1514 South Horner Blvd.<br>Sanford, NC 27330-5632',
+            address: '1518 South Horner Blvd.<br>Sanford, NC 27330-5632',
             phone: '<strong>(P)</strong> 919-774-7044<br><strong>(P)</strong> 919-774-7046<br><strong>(F)</strong> 919-774-7047'
         },
         {
-            title: 'Smithfield',
+            title: 'Selma',
             location: {
                 lat: 35.499124,
                 lng: -78.351684
             },
-            address: '839 S Brightleaf Blvd, Ste #1<br>Smithfield, NC 27577-4386',
-            phone: '<strong>(P)</strong> 919-209-0597<br><strong>(F)</strong> 919-989-1168'
+            address: '1011 South Pollock Street<br>Selma, NC 27576-2931',
+            phone: '<strong>(P)</strong> 919-634-9696<br><strong>(F)</strong> 919-351-0062'
+        },
+        {
+            title: 'Shelby',
+            location: {
+                lat: 35.30121,
+                lng: -81.54012
+            },
+            address: '809 N Lafayette Street Ste G<br>Shelby, NC 28150-3886',
+            phone: '<strong>(P)</strong> 704-466-9002<br><strong>(F)</strong> 704-466-3034'
+        },
+        {
+            title: 'St. Pauls HWY 20',
+            location: {
+                lat: 34.82251,
+                lng: -79.00585
+            },
+            address: '1392 NC HWY 20 W<br>St. Pauls, NC 28384-1533',
+            phone: '<strong>(P)</strong> 910-885-9002 <br><strong>(F)</strong> 910-885-9026'
+        },
+        {
+             title: 'Tarboro',
+            location: {
+                lat: 35.89522,
+                lng: -77.53284
+            },
+            address: '101 North Main Street<br> Tarboro, NC 27886-5005',
+            phone: '<strong>(P)</strong> 252-563-5251 <br><strong>(F)</strong> 252-563-5256'
+        },
+        {
+            title: 'Wadesboro',
+            location: {
+                lat: 34.96399,
+                lng: -80.05818
+            },
+            address: '1154A East Caswell Steet NW<br>Wadesboro, NC 28170-2376',
+            phone: '<strong>(P)</strong> 980-278-8080<br><strong>(F)</strong> 980-278-8104'
         },
         {
             title: 'Whiteville',
             location: {
-                lat: 34.3287555,
-                lng: -78.7057896
+                lat: 34.33931,
+                lng: -78.70444
             },
-            address: '106 S Lee Street<br>Whiteville, NC 28472-4028',
+            address: '100 Memory Plaza<br>Whiteville, NC 28472-4028',
             phone: '<strong>(P)</strong> 910-642-9900<br><strong>(P)</strong> 910-642-9902<br><strong>(F)</strong> 910-642-9905'
         },
         {
